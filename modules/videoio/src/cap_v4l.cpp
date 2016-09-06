@@ -457,11 +457,11 @@ static int autosetup_capture_mode_v4l2(CvCaptureCAM_V4L* capture) {
             V4L2_PIX_FMT_BGR24,
             V4L2_PIX_FMT_YVU420,
             V4L2_PIX_FMT_YUV411P,
+            V4L2_PIX_FMT_YUYV,
 #ifdef HAVE_JPEG
             V4L2_PIX_FMT_MJPEG,
             V4L2_PIX_FMT_JPEG,
 #endif
-            V4L2_PIX_FMT_YUYV,
             V4L2_PIX_FMT_UYVY,
             V4L2_PIX_FMT_SN9C10X,
             V4L2_PIX_FMT_SBGGR8,
