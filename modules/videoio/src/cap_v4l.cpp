@@ -236,8 +236,8 @@ make & enjoy!
 #endif
 
 /* Defaults - If your board can do better, set it here.  Set for the most common type inputs. */
-#define DEFAULT_V4L_WIDTH  640
-#define DEFAULT_V4L_HEIGHT 480
+#define DEFAULT_V4L_WIDTH  1920
+#define DEFAULT_V4L_HEIGHT 1080
 #define DEFAULT_V4L_FPS 30
 
 #define CHANNEL_NUMBER 1
