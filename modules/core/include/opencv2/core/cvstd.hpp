@@ -413,6 +413,8 @@ struct Ptr
     Ptr& operator = (Ptr&& o);
 #endif
 
+	void addref();
+
 private:
     detail::PtrOwner* owner;
     T* stored;
