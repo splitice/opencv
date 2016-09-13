@@ -137,7 +137,7 @@ Ptr<T>::Ptr(const Ptr& o) : owner(o.owner), stored(o.stored)
 }
 
 template<typename T>
-Ptr<T>::addref()
+void Ptr<T>::addref()
 {
     if (owner) owner->incRef();
 }
